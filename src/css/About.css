@@ -1,0 +1,20 @@
+.aboutp {
+    margin-bottom: 5rem;
+}
+
+.aboutbtns {
+    justify-content: center;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.intro {
+    margin-left: 40%;
+    margin-right: 40%;
+}

@@ -1,10 +1,43 @@
 import React from 'react';
+import Profile from '../Components/Profile';
+import SkillsList from '../Components/SkillsList';
+import '../css/About.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Button } from 'bootstrap';
 
 const About = () => {
     return(
-        <div>
-            About Page
-        </div>
+        <Container>
+            <h1>Let me introduce myself</h1>
+
+            <div>
+                <img />
+                <Row>
+                    <Col xs={{span: 6, offset: 3}}>
+                    <p className='aboutp'>
+                        Hey, I'm Dale! I graduated from the University of Washington in August of 2020 with a degree 
+                        in Biology. Towards the end of my degree, I started to teach myself to code with Python to supplement
+                        my degree. As I built upon my skills, I found a passion for programming. Since I graduated, I've been 
+                        continuing in my computer science education; whether it be through coursework, a bootcamp, or self-lead
+                        teaching and projects, I now have skills in Java, Python, R, and Javscript, as well as experience working
+                        with React and React Native. I'm currently looking to get involved in tech as a programmer, especially 
+                        somewhere related to biotech or the sciences. I'm always looking to expand my skills and learn new things,
+                        and I look forward to connecting soon.
+
+                    </p>
+                    </Col>
+                </Row>
+                <Row >
+                    <Col xs={{span: 3, offset: 2}}> <Profile /></Col>
+                    <Col xs={{span: 3, offset: 2}}> <SkillsList /></Col> 
+                </Row>
+                <Row className='aboutbtns'>
+                    <Col xs={{span: 3, offset: 2}}><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-info btn-lg'} role='button'>Hire Me</a></Col>
+                    <Col xs={{span: 3}}><a href='https://docs.google.com/document/d/1Lhe-v6w-rY-eB7edlK1ZVL9SELkeDS9HnlJ_zuvidkc/edit?usp=sharing'  className={'btn btn-info btn-lg'}>Download Resume</a></Col>
+                </Row>
+               
+            </div>
+        </Container>
     )
 }
 

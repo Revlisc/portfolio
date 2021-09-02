@@ -4,7 +4,19 @@
     background-image: url('../image/background_pic.jpg');
     background-size: cover;
     background-position: 50% 12%;
-    height: 94.68vh;
+    height: 94.5vh;
+    width: 100vw;
+    position:fixed;
+    
+}
+
+.openingline {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.iconslinks {
+    margin-top: 3.75rem;
 }
 
 h3 {
@@ -13,6 +25,11 @@ h3 {
 
 .typewriter {
     font-weight: 500;
+    
+}
+
+.ima {
+    margin-top: 3rem;
 }
 
 i {

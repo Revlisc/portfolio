@@ -1,0 +1,14 @@
+h3 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.profile {
+    width: 40%;
+    margin-left: 25%;
+}
