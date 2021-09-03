@@ -1,0 +1,28 @@
+.entryTitle {
+    
+    text-align: right;
+
+}
+
+.entryTime {
+    float: right;
+    
+    
+    text-align: right;
+    
+}
+
+.entryCompany {
+    text-align: start;
+    
+}
+
+.entrySummary {
+    text-align: start;
+    
+}
+
+.entryBox {
+    padding-right: 90px;
+}
+

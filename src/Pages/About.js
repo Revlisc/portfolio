@@ -28,12 +28,12 @@ const About = () => {
                     </Col>
                 </Row>
                 <Row >
-                    <Col xs={{span: 3, offset: 2}}> <Profile /></Col>
-                    <Col xs={{span: 3, offset: 2}}> <SkillsList /></Col> 
+                    <Col md={{span: 4, offset: 2}} xs={12}> <Profile /></Col>
+                    <Col md={{span: 4}} xs={12}> <SkillsList /></Col> 
                 </Row>
-                <Row className='aboutbtns'>
-                    <Col xs={{span: 3, offset: 2}}><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-info btn-lg'} role='button'>Hire Me</a></Col>
-                    <Col xs={{span: 3}}><a href='https://docs.google.com/document/d/1Lhe-v6w-rY-eB7edlK1ZVL9SELkeDS9HnlJ_zuvidkc/edit?usp=sharing'  className={'btn btn-info btn-lg'}>Download Resume</a></Col>
+                <Row className='aboutbtns' xs={12}>
+                    <Col xs={{span: 3}} className='justify-content-end'><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-block btn-info btn-lg'} role='button'>Hire Me</a></Col>
+                    <Col xs={{span: 3}} className='justify-content-start'><a href='https://docs.google.com/document/d/1Lhe-v6w-rY-eB7edlK1ZVL9SELkeDS9HnlJ_zuvidkc/edit?usp=sharing'  className={'btn btn-info btn-lg'}>Download Resume</a></Col>
                 </Row>
                
             </div>

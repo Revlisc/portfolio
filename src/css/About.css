@@ -8,10 +8,13 @@
 
 .btn-lg {
     padding: 10px 20px;
+    width: 100%;
+    
 }
 
 h1 {
     text-align: center;
+    margin-top: 3rem;
 }
 
 .intro {
