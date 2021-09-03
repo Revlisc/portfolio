@@ -3,7 +3,7 @@ import '../css/Profile.css'
 
 const Profile = () => {
     return (
-        <div className=''>
+        <div className='profile'>
             <h3>Profile</h3>
             <p>
                 I'm currently seeking full-time positions in software engineering, bioinformatics, 

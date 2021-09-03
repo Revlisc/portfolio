@@ -7,7 +7,7 @@ import { Button } from 'bootstrap';
 
 const About = () => {
     return(
-        <Container>
+        <Container className='aboutpage '>
             <h1>Let me introduce myself</h1>
 
             <div>

@@ -3,7 +3,7 @@ import '../css/SkillsList.css';
 
 const SkillsList = () => {
     return (
-        <div className=''>
+        <div className='skillslist'>
             <h3>Skills and Abilities</h3>
             <p>
                 I am a goal-oriented, team-first problem solver well-versed in coding and research. 

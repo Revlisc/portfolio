@@ -1,5 +1,11 @@
 .aboutp {
     margin-bottom: 5rem;
+    color: #658C84;
+}
+
+.aboutpage {
+    background-color: #0F0F0F;
+    width: 100%;
 }
 
 .aboutbtns {
@@ -15,6 +21,7 @@
 h1 {
     text-align: center;
     margin-top: 3rem;
+    
 }
 
 .intro {
