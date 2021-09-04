@@ -8,7 +8,7 @@ const Timeline = () => {
     return (
         <Container className='timeline'>
             <Row>
-                <h2>Experience</h2>
+                <h2 className='resumeSectionHeader'>Experience</h2>
             </Row>
             <Row className='timelineRow'>
                 <Entry 
@@ -73,7 +73,7 @@ const Timeline = () => {
                 />
             </Row>
             <Row>
-                <h2>Education</h2>
+                <h2 className='resumeSectionHeader'>Education</h2>
             </Row>
             <Row>
                 <Entry 

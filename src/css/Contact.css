@@ -1,0 +1,14 @@
+h5 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contacti {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    justify-content: center;
+}
