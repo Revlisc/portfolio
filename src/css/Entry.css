@@ -22,7 +22,29 @@
     
 }
 
-.entryBox {
-    padding-right: 90px;
+
+
+.entrySecondBox {
+    
+    height:auto;
+    right: 50%;
 }
 
+
+.timeline-icon {
+    height: 3rem;
+    display: flex;
+    width: 3rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 75%;
+    color: gold;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    margin: auto;
+}
+
+.line::after {
+    color: gray;
+    left: 50%;
+}

@@ -1,18 +1,20 @@
 .timeline {
-    width: 40vw;
+    width: 60vw;
+    position: relative;
 }
 
-.timelineRow ::before {
-    content: "";
-    display: block;
-    width: 1px;
-    height: auto;
-    background: rgba(0, 0, 0, 0.1);
-    position: absolute;
-    left: 35%;
-    top: 0;
-}
+
+
+
 
 .resumeSectionHeader {
     text-align: center;
 }
+
+
+
+
+
+
+
+

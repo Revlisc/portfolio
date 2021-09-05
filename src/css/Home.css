@@ -5,8 +5,8 @@
     background-size: cover;
     background-position: 50% 12%;
     height: 94.5vh;
-    width: 100vw;
-    position:fixed;
+    width: 100%;
+    position: relative;
     
 }
 
@@ -37,9 +37,10 @@ h3 {
     margin-top: 3rem;
 }
 
-i {
-    margin: 14px;
-    color:black;
+.hicon {
+    padding: 0;
+    margin: 0;
+    align-items: center;
 }
 
 h1 {
