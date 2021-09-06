@@ -7,7 +7,7 @@ const Contact = () => {
     return(
         <Container>
             <Row>
-                <h1>I'd Love To Connect With You!</h1>
+                <h1 className='connect'>I'd Love To Connect With You!</h1>
             </Row>
             <Row>
                 <h5>Reach out at any of the following so we can chat</h5>

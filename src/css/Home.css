@@ -5,16 +5,18 @@
     background-size: cover;
     background-position: 50% 12%;
     height: 94.5vh;
-    width: 100%;
+    max-width: 100%;
     position: relative;
     
 }
 
 
+
+
 .openingline {
     margin-top: 3rem;
     position: relative;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 6vw;
     
 }
@@ -23,6 +25,7 @@
     margin-top: 3.75rem;
     font-size: 4vw;
     display: inline;
+    color: rgb(37, 44, 39);
 }
 
 h3 {
@@ -43,6 +46,7 @@ h3 {
     padding: 0;
     margin: 0;
     align-items: center;
+    color: rgb(31, 39, 33);
 }
 
 h1 {

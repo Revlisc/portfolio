@@ -8,12 +8,15 @@ import '../css/Header.css';
 const Header = () => {
     return (
         <Navbar bg='dark' variant='dark' expand="md">
-            <LinkContainer to="/">
-                <Navbar.Brand className='nav-title'>Dale Simmons</Navbar.Brand>
+            <LinkContainer exact to="/">
+                <Navbar.Brand className='nav-title active'>Dale Simmons</Navbar.Brand>
             </LinkContainer> 
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="mx-auto">       
+                <Nav className="mx-auto">  
+                <LinkContainer exact to="/">
+                    <Nav.Link className='link homelink' activeClassName='active'>Home</Nav.Link>
+                </LinkContainer>     
                 <LinkContainer to="/about">
                     <Nav.Link className='link'>About Me</Nav.Link>
                 </LinkContainer>

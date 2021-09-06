@@ -11,15 +11,10 @@
 .link {
     margin-left: 1.2rem;
     letter-spacing: 2.5px;
+    color: white !important;
 }
 
-.link:hover {
-    color: aqua;
-}
 
-.link:active {
-    color: orange;
-}
 
 .nav-title {
     letter-spacing: 2.5px;
@@ -28,9 +23,18 @@
     
 }
 
+.active {
+    color: gold !important;
+}
+
 @media only screen and (min-width: 768px) {
     .nav-title {
         display: none;
     }
 }
 
+@media only screen and (max-width: 769px) {
+    .homelink {
+        display: none;
+    }
+}
