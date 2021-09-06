@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Home = () => {
     return(
-        <Container className={'hometext'} >
+        <Container className={'hometext container-fluid'} >
             <Row>
                 <h1 className='openingline'>Hi, I'm Dale</h1>
             </Row>
@@ -21,9 +21,9 @@ const Home = () => {
                 </h3>
             </Row>
             <Row className='iconslinks'>
-                <Col sm={{span: 2, offset: 4}} className='mx-auto'><a href='https://github.com/Revlisc' alt='github address Revlisc' ><i className={'fa-github fab hicon'} /></a></Col>
-                <Col sm={2} className='mx-auto'><a href='https://www.linkedin.com/in/dalejsimmons/' alt='my linkedin profile' ><i className="fab fa-linkedin-in hicon" /></a></Col>
-                <Col sm={2} className='mx-auto'><a href='mailto:dalesimmons0210@gmail.com' alt='email contact' ><i class="fas fa-envelope hicon" /></a></Col>
+                <a href='https://github.com/Revlisc' alt='github address Revlisc' ><i className={'fa-github fab hicon'} /></a>
+                <a href='https://www.linkedin.com/in/dalejsimmons/' alt='my linkedin profile' ><i className="fab fa-linkedin-in hicon" /></a>
+                <a href='mailto:dalesimmons0210@gmail.com' alt='email contact' ><i class="fas fa-envelope hicon" /></a>
             </Row>
         </Container>
     )

@@ -1,24 +1,16 @@
 .navContainer {
-    height: 50px;
     background-color: rgba(0, 0, 0, 0.75);
     justify-content: center;
 }
 
 .navbox {
-    
     padding-top: 1rem;
     text-align: center;
 }
 
 .link {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 0.8rem;
     margin-left: 1.2rem;
-    margin-right: 1.2rem;
-    justify-content: center;
-    
+    letter-spacing: 2.5px;
 }
 
 .link:hover {
@@ -28,3 +20,17 @@
 .link:active {
     color: orange;
 }
+
+.nav-title {
+    letter-spacing: 2.5px;
+    margin-left: 1rem;
+    
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-title {
+        display: none;
+    }
+}
+
