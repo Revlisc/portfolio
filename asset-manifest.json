@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4e3733d3.chunk.css",
+    "main.js": "/portfolio/static/js/main.a3049b4e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a3049b4e.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.00902d3d.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.00902d3d.js.map",
+    "static/js/2.86de54a9.chunk.js": "/portfolio/static/js/2.86de54a9.chunk.js",
+    "static/js/2.86de54a9.chunk.js.map": "/portfolio/static/js/2.86de54a9.chunk.js.map",
+    "static/js/3.eb63457b.chunk.js": "/portfolio/static/js/3.eb63457b.chunk.js",
+    "static/js/3.eb63457b.chunk.js.map": "/portfolio/static/js/3.eb63457b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.4e3733d3.chunk.css.map": "/portfolio/static/css/main.4e3733d3.chunk.css.map",
+    "static/js/2.86de54a9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.86de54a9.chunk.js.LICENSE.txt",
+    "static/media/Dale_Simmons_Resume.02d23112.pdf": "/portfolio/static/media/Dale_Simmons_Resume.02d23112.pdf",
+    "static/media/Home.css": "/portfolio/static/media/background_pic.5d8f17bf.jpg",
+    "static/media/diceRoll.82a2a608.PNG": "/portfolio/static/media/diceRoll.82a2a608.PNG",
+    "static/media/todolist.f0744a0b.PNG": "/portfolio/static/media/todolist.f0744a0b.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00902d3d.js",
+    "static/js/2.86de54a9.chunk.js",
+    "static/css/main.4e3733d3.chunk.css",
+    "static/js/main.a3049b4e.chunk.js"
+  ]
+}
