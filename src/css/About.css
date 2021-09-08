@@ -1,11 +1,14 @@
+#root {
+    background-color: #FFFAED;;
+}
 .aboutp {
     margin-bottom: 5rem;
-    color: #658C84;
+    color: rgb(19,23,26);
 }
 
 .aboutpage {
-    background-color: #0F0F0F;
-    width: 100%;
+    
+    max-width: 100%;
 }
 
 .aboutbtns {

@@ -4,15 +4,29 @@ h5 {
 
 a {
     text-decoration: none;
+    color: #658C84;
 }
 
 .contacti {
     text-align: center;
     display: inline-block;
-    margin: 0 auto;
+    
     justify-content: center;
+    
 }
 
 .connect {
     margin-top: 3rem;
+}
+
+.contact-row {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.fillpage {
+    margin-top:9rem;
+    margin-bottom: 9rem;
+    color: (0, 0, 0, 0);
+
 }

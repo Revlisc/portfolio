@@ -13,7 +13,7 @@ const Home = () => {
                 <h3 className='ima'>
                     I'm a {' '}
                     <Typical
-                        steps={['Developer', 3500, 'Scientist', 3500, 'Team Member', 3500]}
+                        steps={['Developer', 3500, 'Scientist', 3500, 'Team Member', 3500, 'Problem Solver', 3500]}
                         loop={Infinity}
                         className='typewriter'
                     />

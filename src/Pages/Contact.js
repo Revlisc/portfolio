@@ -12,7 +12,7 @@ const Contact = () => {
             <Row>
                 <h5>Reach out at any of the following so we can chat</h5>
             </Row>
-            <Row>
+            <Row className='contact-row'>
                 <Col md={3} className='contacti'>
                     <i className='fa fa-location-arrow fa-2x' />
                     <h3>Where I am</h3>
@@ -34,6 +34,9 @@ const Contact = () => {
                     <h3>See more of my works</h3>
                     <h5><a href='https://github.com/Revlisc'>Github</a></h5>
                 </Col>
+            </Row>
+            <Row className="fillpage">
+                <p>.</p>
             </Row>
         </Container>
     )

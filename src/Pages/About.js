@@ -4,10 +4,11 @@ import SkillsList from '../Components/SkillsList';
 import '../css/About.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Button } from 'bootstrap';
+import myResume from '../files/Dale_Simmons_Resume.pdf';
 
 const About = () => {
     return(
-        <Container className='aboutpage '>
+        <Container className='aboutpage'>
             <h1>Let me introduce myself</h1>
 
             <div>
@@ -33,7 +34,7 @@ const About = () => {
                 </Row>
                 <Row className='aboutbtns' xs={12}>
                     <Col xs={{span: 3}} className='justify-content-end'><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-block btn-info btn-lg'} role='button'>Hire Me</a></Col>
-                    <Col xs={{span: 3}} className='justify-content-start'><a href='https://docs.google.com/document/d/1Lhe-v6w-rY-eB7edlK1ZVL9SELkeDS9HnlJ_zuvidkc/edit?usp=sharing'  className={'btn btn-info btn-lg'}>Download Resume</a></Col>
+                    <Col xs={{span: 3}} className='justify-content-start'><a href={myResume}  className={'btn btn-info btn-lg'}>Download Resume</a></Col>
                 </Row>
                
             </div>

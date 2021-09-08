@@ -7,6 +7,7 @@
     height: 94.5vh;
     max-width: 100%;
     position: relative;
+    color: rgb(33,36,27);
     
 }
 
@@ -17,15 +18,15 @@
     margin-top: 3rem;
     position: relative;
     font-weight: 400;
-    font-size: 6vw;
+    font-size: 5rem;
     
 }
 
 .iconslinks {
     margin-top: 3.75rem;
-    font-size: 4vw;
+    font-size: 3rem;
     display: inline;
-    color: rgb(37, 44, 39);
+    color: rgb(175,186,205);
 }
 
 h3 {
@@ -46,7 +47,7 @@ h3 {
     padding: 0;
     margin: 0;
     align-items: center;
-    color: rgb(31, 39, 33);
+    color: rgb(175,186,205);
 }
 
 h1 {

@@ -1,27 +1,29 @@
 import { date } from 'check-types';
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+//import diceroll from '../image/diceRoll.PNG';
+import '../css/ProjectEntry.css';
 
 const ProjectEntry = ({name, date, source, imgsrc, text}) => {
     return (
         <Container>
-            <Row>
+            <Row className="project-entry-row">
                 <Col sm={6}>
-                    {name}
+                    <h3><a href={source}>{name}</a></h3>
                 </Col>
                 <Col sm={6}>
-                    {date}
+                    <h4>{date}</h4>
                 </Col>
             </Row>
-            <Row>
+            <Row className="project-entry-row">
                 <Col>
-                    <a href={source}  />
-                    <img src={imgsrc} alt="screenshot of project" />
+                    
+                    <img src={imgsrc} alt="screenshot of project" className='project-img'/>
                 </Col>
             </Row>
-            <Row>
+            <Row className="project-entry-row">
                 <Col xs={12}>
-                    {text}
+                    <p>{text}</p>
                 </Col>
             </Row>
         </Container>

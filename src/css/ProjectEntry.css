@@ -1,0 +1,13 @@
+.project-img {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 75%;
+    text-align: center;
+}
+
+.project-entry-row {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
