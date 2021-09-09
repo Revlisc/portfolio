@@ -11,7 +11,7 @@ const About = () => {
             <h1>Let me introduce myself</h1>
 
             <div>
-                <img />
+                
                 <Row>
                     <Col xs={{span: 6, offset: 3}}>
                     <p className='aboutp'>
