@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical'
 import '../css/Home.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 const Home = () => {
     return(

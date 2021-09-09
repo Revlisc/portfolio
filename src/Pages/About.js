@@ -3,7 +3,6 @@ import Profile from '../Components/Profile';
 import SkillsList from '../Components/SkillsList';
 import '../css/About.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import { Button } from 'bootstrap';
 import myResume from '../files/Dale_Simmons_Resume.pdf';
 
 const About = () => {

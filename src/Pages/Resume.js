@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container} from 'react-bootstrap';
+import { Row, Container} from 'react-bootstrap';
 
 import '../css/Resume.css';
 import Timeline from '../Components/Timeline';
