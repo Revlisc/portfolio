@@ -3,10 +3,9 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter basename={'https://revlisc.github.io/portfolio/'}>
+  <BrowserRouter >
     <App />
   </BrowserRouter>,
   document.getElementById('root')
