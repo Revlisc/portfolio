@@ -14,6 +14,7 @@ const Profile = () => {
             <div>  
                 <ul>
                     <li>Interactive Web and Mobile App Development</li>
+                    <li>Software Engineering</li>
                     <li>Conservation and Scientific Outreach</li>
                     <li>Biological and Life Sciences</li>
                     <li>Data Science</li>

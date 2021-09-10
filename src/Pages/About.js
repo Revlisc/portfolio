@@ -13,7 +13,7 @@ const About = () => {
             <div>
                 
                 <Row>
-                    <Col xs={{span: 6, offset: 3}}>
+                    <Col xs={{span: 10, offset: 1}} md={{span: 6, offset: 3}}>
                     <p className='aboutp'>
                         Hey, I'm Dale! I graduated from the University of Washington in August of 2020 with a degree 
                         in Biology. Towards the end of my degree, I started to teach myself to code with Python to supplement
@@ -32,8 +32,8 @@ const About = () => {
                     <Col md={{span: 4}} xs={12}> <SkillsList /></Col> 
                 </Row>
                 <Row className='aboutbtns' xs={12}>
-                    <Col xs={{span: 3}} className='justify-content-end'><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-block btn-info btn-lg'} role='button'>Hire Me</a></Col>
-                    <Col xs={{span: 3}} className='justify-content-start'><a href={myResume}  className={'btn btn-info btn-lg'}>Download Resume</a></Col>
+                    <Col xs={{span: 12}} sm={{span: 3}}  className='justify-content-end'><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-block btn-lg abtbtn'} role='button'>Hire Me</a></Col>
+                    <Col xs={{span: 12}} sm={{span: 3}} className='justify-content-start'><a href={myResume}  className={'btn btn-lg abtbtn'}>Download Resume</a></Col>
                 </Row>
                
             </div>

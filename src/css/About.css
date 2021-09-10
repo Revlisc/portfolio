@@ -1,8 +1,9 @@
 #root {
-    background-color: #FFFAED;;
+    background-color: #FFFFFF;
 }
 .aboutp {
     margin-bottom: 5rem;
+    margin-top: 2.5rem;
     color: rgb(19,23,26);
 }
 
@@ -13,6 +14,8 @@
 
 .aboutbtns {
     justify-content: center;
+    
+
 }
 
 .btn-lg {
@@ -30,4 +33,10 @@ h1 {
 .intro {
     margin-left: 40%;
     margin-right: 40%;
+}
+
+.abtbtn {
+    margin: 1rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: gold;
 }

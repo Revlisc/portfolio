@@ -20,7 +20,7 @@
     position: relative;
     font-weight: 400;
     font-size: 5rem;
-    font-family: 'Playball', 'Oswald'
+    font-family: 'DM Serif Display', 'Oswald', "sans-serif"
     
 }
 
@@ -28,7 +28,7 @@
     margin-top: 3.75rem;
     font-size: 3rem;
     display: inline;
-    color: rgb(175,186,205);
+    
 }
 
 h3 {
@@ -44,10 +44,17 @@ h3 {
 
 h1 {
     margin-top: 0;
+    font-weight: 600;
 }
 
 body {
     font-family: 'Oswald', sans-serif;
     height: 100%;
     width: 100%;
+}
+
+@media only screen and (max-width: 420px) {
+    .hicon {
+        color: white;
+    }
 }
