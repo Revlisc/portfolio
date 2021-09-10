@@ -16,6 +16,7 @@
 
 .openingline {
     margin-top: 3rem;
+    margin-bottom: 3rem;
     position: relative;
     font-weight: 400;
     font-size: 5rem;
@@ -34,21 +35,11 @@ h3 {
     font-size: 48px;
 }
 
-.typewriter {
-    font-weight: 500;
-    font-size: 56px;
-    
-}
-
-.ima {
-    margin-top: 3rem;
-}
-
 .hicon {
     padding: 0;
     margin: 0;
     align-items: center;
-    color: rgb(175,186,205);
+    color: rgb(33,36,27);
 }
 
 h1 {
