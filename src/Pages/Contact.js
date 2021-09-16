@@ -5,14 +5,14 @@ import '../css/Contact.css';
 
 const Contact = () => {
     return(
-        <Container>
+        <Container id='contactpage' className='contactpage'>
             <Row>
                 <h1 className='connect'>I'd Love To Connect With You!</h1>
             </Row>
             <Row>
                 <h5>Reach out at any of the following so we can chat</h5>
             </Row>
-            <Row className='contact-row'>
+            <Row className='contact-row mx-auto'>
                 <Col md={3} className='contacti'>
                     <i className='fa fa-location-arrow fa-2x' />
                     <h3>Where I am</h3>
@@ -22,7 +22,7 @@ const Contact = () => {
                 <Col md={3} className='contacti'>
                     <i className='fas fa-envelope contacti fa-2x' />
                     <h3>Email me at</h3>
-                    <h5><a href='mailto:dalesimmons0210@gmail.com'>dalesimmons0210@gmail.com</a></h5>
+                    <h5><a href='mailto:dalesimmons0210@gmail.com'>dalesimmons0210 <br/>@gmail.com</a></h5>
                 </Col>
                 <Col md={3} className='contacti'>
                     <i className='fab fa-linkedin-in contacti fa-2x' />

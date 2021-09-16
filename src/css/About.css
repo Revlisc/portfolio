@@ -8,8 +8,10 @@
 }
 
 .aboutpage {
-    
+    padding-top: 10rem;
+    padding-bottom: 8rem;
     max-width: 100%;
+    background-color: #F5F8FF;
 }
 
 .aboutbtns {
@@ -26,7 +28,6 @@
 
 h1 {
     text-align: center;
-    margin-top: 3rem;
     
 }
 
@@ -37,6 +38,41 @@ h1 {
 
 .abtbtn {
     margin: 1rem;
-    background-color: rgba(0, 0, 0, 0.75);
-    color: gold;
+    background-color: #05C2C9;
+    color: white;
 }
+
+.aboutIcon {
+    
+    height: 5rem;
+    display: flex;
+    width: 5rem;
+    background-color: #05C2C9;
+    border-radius: 75%;
+    color: white;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.barTitle {
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.barText {
+    text-align: center;
+}
+
+.abtBarContain {
+    width: 80%;
+}
+
+.profilepic {
+    border-radius: 50%;
+    height: 12rem;
+    width: auto;
+}
+

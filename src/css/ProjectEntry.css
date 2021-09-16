@@ -1,8 +1,16 @@
 .project-img {
     display: block;
     margin: 0 auto;
-    height: auto;
-    max-width: 75%;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+}
+
+.project-img-modal {
+    height:350px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -10,4 +18,46 @@
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 3rem;
+}
+
+.projectModalBtn {
+    background-color: transparent;
+    border: none;
+    align-items:center;
+    vertical-align: middle;
+    font-size: 50px;
+    
+    color: #05C2C9;
+    
+}
+
+.project-image-wrap {
+  position: relative;
+  height:220px;
+  width: 250px;
+  
+  margin: 0 1rem;
+  
+}
+
+.modalHover {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #f5f5f5c0;
+  text-align: center;
+  padding-top: 3rem;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  
+  
+  transition: all 0.3s ease-in-out;
+}
+
+.project-image-wrap:hover .modalHover {
+  visibility: visible;
+  opacity: 1;
 }

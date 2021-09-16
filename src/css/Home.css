@@ -15,7 +15,7 @@
 
 
 .openingline {
-    margin-top: 3rem;
+    padding-top: 4rem;
     margin-bottom: 3rem;
     position: relative;
     font-weight: 400;
@@ -29,6 +29,7 @@
     font-size: 3rem;
     display: inline;
     
+    
 }
 
 h3 {
@@ -39,7 +40,7 @@ h3 {
     padding: 0;
     margin: 0;
     align-items: center;
-    color: rgb(33,36,27);
+    color: #05C2C9;
 }
 
 h1 {
@@ -48,7 +49,7 @@ h1 {
 }
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
     height: 100%;
     width: 100%;
 }

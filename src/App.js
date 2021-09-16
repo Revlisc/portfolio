@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import { Route, Switch } from 'react-router-dom'
 
 import Header from './Components/Header';
 import Home from './Pages/Home';
@@ -13,16 +12,27 @@ function App() {
     
       <Fragment>
         <Header />
-        <Switch>
-          <Route exact path='/' render={() => <Home/>} />
-          <Route exact path='/about' render={() => <About/>} />
-          <Route exact path='/projects' render={() => <Projects/>} />
-          <Route exact path='/resume' render={() => <Resume/>} />
-          <Route exact path='/contact' render={() => <Contact/>} />
-        </Switch>
+        
+        <Home />
+        <About />
+        <Projects />
+        <Resume />
+        <Contact />
+        
       </Fragment>
     
   );
 }
 
 export default App;
+
+/* <Fragment>
+<Header />
+<Switch>
+  <Route exact path='/' render={() => <Home/>} />
+  <Route exact path='/about' render={() => <About/>} />
+  <Route exact path='/projects' render={() => <Projects/>} />
+  <Route exact path='/resume' render={() => <Resume/>} />
+  <Route exact path='/contact' render={() => <Contact/>} />
+</Switch>
+</Fragment> */

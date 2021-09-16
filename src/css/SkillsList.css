@@ -12,3 +12,32 @@ h3 {
 .skillslist {
     color: black;
 }
+
+.skill {
+    
+    color: white;
+    font-weight: 600;
+    background-color: #05C2C9;
+    padding-left: 1rem;
+    height: auto;
+    margin-bottom: 1rem;
+    margin: 2rem 1rem;
+    border-radius: 1rem;
+    
+}
+
+.skillText {
+    text-align: center;
+    margin-right: 1rem;
+    max-width: 90%;
+    width: 150px;
+}
+
+ul {
+    text-align: center;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}

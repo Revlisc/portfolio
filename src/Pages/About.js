@@ -1,35 +1,80 @@
 import React from 'react';
-import Profile from '../Components/Profile';
+
 import SkillsList from '../Components/SkillsList';
 import '../css/About.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import myResume from '../files/Dale_Simmons_Resume.pdf';
+import AboutBar from '../Components/AboutBar';
+import profilePic from '../image/profilepic.jpg';
 
 const About = () => {
     return(
-        <Container className='aboutpage'>
-            <h1>Let me introduce myself</h1>
+        <Container className='aboutpage' id='aboutpage'>
+            
+            <h1 >Let Me Introduce Myself</h1>
 
             <div>
-                
                 <Row>
-                    <Col xs={{span: 10, offset: 1}} md={{span: 6, offset: 3}}>
+                    <img className='profilepic mx-auto' src={profilePic} alt='me'/>
+                </Row>
+                <Row>
+                    <Col xs={{span: 10, offset: 1}} md={{span: 8, offset: 2}}>
                     <p className='aboutp'>
                         Hey, I'm Dale! I graduated from the University of Washington in August of 2020 with a degree 
                         in Biology. Towards the end of my degree, I started to teach myself to code with Python to supplement
-                        my degree. As I built upon my skills, I found a passion for programming. Since I graduated, I've been 
-                        continuing in my computer science education; whether it be through coursework, a bootcamp, or self-lead
-                        teaching and projects, I now have skills in Java, Python, R, and Javscript, as well as experience working
-                        with React and React Native. I'm currently looking to get involved in tech as a programmer, especially 
+                        my education. As I built upon my skills, I found a passion for programming. Since I graduated, I've been 
+                        continuing learning computer science; whether it be through coursework, a bootcamp, or self-lead
+                        teaching and projects. Since then, I've now learned skills in Java, Python, R, and Javscript, MongoDb, Node.js,
+                        Express, React, and React Native. I'm currently looking to get involved in tech as a programmer, especially 
                         somewhere related to biotech or the sciences. I'm always looking to expand my skills and learn new things,
                         and I look forward to connecting soon.
 
                     </p>
                     </Col>
                 </Row>
+                <Row className='abtBarContain mx-auto'>
+                    <Col xs={6} md={3} className='mx-auto'>
+                        <AboutBar 
+                            icon={<i className="far fa-lightbulb fa-3x"></i>} 
+                            title='Solutions'
+                            text='Solving problems and finding the best answer are passions of mine'
+                        />
+                    </Col>
+                    <Col xs={6} md={3} className='mx-auto'>
+                        <AboutBar 
+                            icon={<i className="far fa-comments fa-3x"></i>} 
+                            title='Relatable'
+                            text="I'm a good communicator who excels in team-based environments"
+                        />
+                    </Col>
+                    <Col xs={6} md={3} className='mx-auto'>
+                        <AboutBar 
+                            icon={<i className="fas fa-flask fa-3x"></i>} 
+                            title='Data'
+                            text='With a background in research, I know the importance of understanding data'
+                        />
+                    </Col>
+                    <Col xs={6} md={3} className='mx-auto'>
+                        <AboutBar 
+                            icon={<i class="fas fa-project-diagram fa-3x"></i>} 
+                            title='Adaptive'
+                            text='I quickly adapt and utilize new methods of working and thinking'
+                        />
+                    </Col>
+                    
+                </Row>
                 <Row >
-                    <Col md={{span: 4, offset: 2}} xs={12}> <Profile /></Col>
-                    <Col md={{span: 4}} xs={12}> <SkillsList /></Col> 
+                    <Col md={8} xs={10} className='mx-auto'> <SkillsList /></Col> 
+                </Row>
+                <Row>
+                    <Col xs={12} sm={8} className='mx-auto' style={{textAlign: 'center'}}>
+                        <p>
+                            I'm currently seeking full-time positions in software engineering, bioinformatics, 
+                            or developer roles. If you think I would make a good fit to your organization or team,
+                            please reach out to me at <a href='mailto:dalesimmons0210@gmail.com' alt='email'>dalesimmons0210@gmail.com</a>.
+                        </p>
+                    </Col>
+                    
                 </Row>
                 <Row className='aboutbtns' xs={12}>
                     <Col xs={{span: 12}} sm={{span: 3}}  className='justify-content-end'><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-block btn-lg abtbtn'} role='button'>Hire Me</a></Col>

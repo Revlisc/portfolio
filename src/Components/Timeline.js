@@ -31,10 +31,8 @@ const Timeline = () => {
                         time={'Nov 2020 - Aug 2021'} 
                         company={'Uniqlo'} 
                         summary={[
-                            "- Assisted in meeting daily sales goals of up to $60,000 by promoting target items and adapting to over forty guests’ needs per hour", <br/>,
-                            "- Anticipated guest’s needs and provided high-quality service by following company policies to ensure a positive shopping experience while multitasking in a fast-paced environment.", <br/>,
-                            "- Swiftly and effectively resolved conflict through great customer service and communication leading to customer satisfaction and developing lasting customer relationships.", <br/>,
-                            "- Troubleshooted and supported guests with our app on a their devices leading to increased customer satisfaction"
+                            "Troubleshooted and supported guests with our app on their device, led in customer service expectations, and contributed to sales' goals of $60,000 per day while adapting to over forty guests' needs per hour."
+                            
                         ]} 
                     />
                 </Row>

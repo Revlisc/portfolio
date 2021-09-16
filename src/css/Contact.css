@@ -16,17 +16,23 @@ a {
 }
 
 .connect {
-    margin-top: 3rem;
+    padding-top: 8rem;
 }
 
 .contact-row {
     margin-top: 5rem;
     margin-bottom: 10rem;
+    max-width: 75%;
 }
 
 .fillpage {
     margin-top:9rem;
-    margin-bottom: 9rem;
+    
     color: (0, 0, 0, 0);
 
+}
+
+.contactpage {
+    background-color: #F5F5F5;
+    max-width: 100%;
 }

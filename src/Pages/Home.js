@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 
 const Home = () => {
     return(
-        <Container className={'hometext container-fluid'} >
+        <Container className={'hometext container-fluid'} id='homepage'>
             <Row>
                 <h1 className='openingline'>Hi, I'm Dale</h1>
             </Row>
