@@ -41,6 +41,7 @@ const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {
                 <ModalTitle id="contained-modal-title-vcenter">
                     <h3>{name}</h3>
                     <h5>{date}</h5>
+                    
                 </ModalTitle>
                 </Modal.Header>
                 <ModalBody>
@@ -48,11 +49,11 @@ const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {
                     <p>
                         {text}
                     </p>
-                    <h4>{tech}</h4>
+                    <h4 className='techBar'>{tech}</h4>
                 </ModalBody>
                 <ModalFooter>
-                <Button ><a href={source} >View code</a></Button>
-                <Button onClick={hideModal}>Close</Button>
+                <Button className='modalCodeBtn'><a href={source} >View code</a></Button>
+                <Button onClick={hideModal} className='modalCloseBtn'>X</Button>
                 </ModalFooter>
             </Modal>
         </div>

@@ -61,3 +61,19 @@
   visibility: visible;
   opacity: 1;
 }
+
+.modalCodeBtn {
+    background-color: #FAB58E;
+    color: black;
+    border: none;
+}
+
+.modalCloseBtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+
+.techBar {
+    text-align: center;
+}
