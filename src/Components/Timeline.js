@@ -56,9 +56,8 @@ const Timeline = () => {
                         time={'Sept 2017 - Aug 2020'} 
                         company={'University of Washington'} 
                         summary={[
-                            "- Developed strong proficiency in technical skills with languages including R, python, Excel, and java while troubleshooting errors and learning to solve with them", <br/>,
-                            "- Demonstrated proficiency with statistical analysis by routinely receiving A’s  and utilizing tests in major classes", <br/>,
-                            "- Showcased ability to work under pressure with short deadlines by successfully maintaining high GPA"
+                            "Through coursework, I was able to gain proficiency in languages including R, python, Excel, and java as well as demonstrate my ability to work in various laboratory settings with varying research practices.",
+                            " I have a proven record in my ability to work under pressure with short deadlines by successfully maintaining high GPA"
                         ]} 
                     />
                 </Row>
@@ -68,8 +67,7 @@ const Timeline = () => {
                         time={'Jul 2018 - Aug 2018'} 
                         company={'Fred Meyer'} 
                         summary={[
-                            "- Performed strong verbal communication skills in fast-paced environment to promote customer satisfaction with over 300 customers daily", <br/>,
-                            "- Showcased ability to coordinate and manage multiple tasks at once by maintaining three store entrances"
+                            "Performed strong verbal communication skills in fast-paced environment and showcased ability to coordinate and manage multiple tasks at once by maintaining three store entrances"
                         ]} 
                     />
                 </Row>
