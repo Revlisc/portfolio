@@ -4,6 +4,8 @@ import ProjectEntry from '../Components/ProjectEntry';
 import diceroll from '../image/diceRoll.PNG';
 import todolist from '../image/todolist.PNG';
 import cafe from '../image/cafe.png';
+import desktopstudy from '../image/desktopstudy.png';
+import portfolioimg from '../image/portfolioimg.png';
 
 
 import '../css/Projects.css';
@@ -12,8 +14,40 @@ const Projects = () => {
     return(
         <Container id='projectspage' className='projectspage container-fluid'>
             <Row><h1 className='projects-header'>Projects</h1></Row>
-            <Row classname='projectRow'> 
-                <Col md={3} xs={12} className='entryPic '>
+            <Row classname='projectRow '> 
+                <Col lg={3} md={{span: 6}} xs={12}className='entryPic  '>
+                    <ProjectEntry 
+                        name="StudyApp"
+                        date="Summer 2021"
+                        source='https://github.com/Revlisc/desktopStudy'
+                        imgsrc={desktopstudy}
+                        text={['A project I made in collaboration that allows a user to login/sign up to an account, create study sets, edit existing sets, review their flashcards, and measure accuracy.']}
+                        tech={[
+                            <i className="fab fa-react"> React</i>, ' | ',
+                            <i className="fab fa-js"> JavaScript</i>, ' | ',
+                            <i className="fab fa-html5"> HTML</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>, ' | ',
+                        ]}
+                    />
+                </Col>
+
+                <Col lg={3} md={6} xs={12}className='entryPic  '>
+                    <ProjectEntry 
+                        name="Portfolio"
+                        date="Summer 2021"
+                        source='https://github.com/Revlisc/portfolio'
+                        imgsrc={portfolioimg}
+                        text={['A personal site to host a resume, my projects, demonstrate fluency in React, and allow people to get to know me better. ']}
+                        tech={[
+                            <i className="fab fa-react"> React</i>, ' | ',
+                            <i className="fab fa-js"> JavaScript</i>, ' | ',
+                            <i className="fab fa-html5"> HTML</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>, ' | ',
+                        ]}
+                    />
+                </Col>
+                
+                <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
                         name='Dice Roller'
                         date='Summer 2021'
@@ -30,6 +64,8 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
+            </Row>
+            <Row classname='projectRowEnd'>
                 <Col md={3} xs={12}className='entryPic  '>
                     <ProjectEntry 
                         name="Todo List"
