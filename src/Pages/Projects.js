@@ -6,6 +6,7 @@ import todolist from '../image/todolist.PNG';
 import cafe from '../image/cafe.png';
 import desktopstudy from '../image/desktopstudy.png';
 import portfolioimg from '../image/portfolioimg.png';
+import weatherApp from '../image/weatherApp.png';
 
 
 import '../css/Projects.css';
@@ -15,6 +16,26 @@ const Projects = () => {
         <Container id='projectspage' className='projectspage container-fluid'>
             <Row><h1 className='projects-header'>Projects</h1></Row>
             <Row classname='projectRow '> 
+                
+                <Col lg={3} md={6} xs={12} className='entryPic '>
+                    <ProjectEntry
+                        name='Weather App'
+                        date='Autumn 2021'
+                        source='https://github.com/Revlisc/weatherApp'
+                        imgsrc={weatherApp}
+                        text={["I developed this app to gain practice in communicating with third-party API's.",
+                            "I used the Open Weather Map API to display both the current and upcoming weather, then React to display the chosen data.",
+                            "The User types in their chosen city, and the api will fetch the weather icon, temperature, humidity, a written description of their weather conidtions, and what the temperature feels like." 
+                        ]}
+                        tech={[
+                            <i className="fab fa-react"> React</i>, ' | ',
+                            <i className="fab fa-js"> JavaScript</i>, ' | ',
+                            <i className="fab fa-html5"> HTML</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>,
+                        ]}
+                    />
+                </Col>
+                
                 <Col lg={3} md={{span: 6}} xs={12}className='entryPic  '>
                     <ProjectEntry 
                         name="StudyApp"
@@ -26,7 +47,7 @@ const Projects = () => {
                             <i className="fab fa-react"> React</i>, ' | ',
                             <i className="fab fa-js"> JavaScript</i>, ' | ',
                             <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>, 
                         ]}
                     />
                 </Col>
@@ -42,10 +63,14 @@ const Projects = () => {
                             <i className="fab fa-react"> React</i>, ' | ',
                             <i className="fab fa-js"> JavaScript</i>, ' | ',
                             <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>, 
                         ]}
                     />
                 </Col>
+                
+                
+            </Row>
+            <Row classname='projectRowEnd'>
                 
                 <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
@@ -54,19 +79,18 @@ const Projects = () => {
                         source='https://github.com/Revlisc/diceRoll'
                         imgsrc={diceroll}
                         text={["A game I made with React and Redux to calculate points based off of random dice rolls.", <br/>,
-                            'Used redux to store user info and the scores, as well as tracking the total number of points rolled.'
+                            'I used redux to store user info and the scores, as well as tracking the total number of points rolled.'
                         ]}
                         tech={[
                             <i className="fab fa-react"> React</i>, ' | ',
                             <i className="fab fa-js"> JavaScript</i>, ' | ',
                             <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>,
                         ]}
                     />
                 </Col>
-            </Row>
-            <Row classname='projectRowEnd'>
-                <Col md={3} xs={12}className='entryPic  '>
+
+                <Col lg={3} md={6} xs={12} className='entryPic  '>
                     <ProjectEntry 
                         name="Todo List"
                         date="Summer 2021"
@@ -77,11 +101,11 @@ const Projects = () => {
                             <i className="fab fa-react"> React</i>, ' | ',
                             <i className="fab fa-js"> JavaScript</i>, ' | ',
                             <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>,
                         ]}
                     />
                 </Col>
-                <Col md={3} xs={12} className='entryPic '>
+                <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
                         name="Restaurant Mock Website"
                         date='Summer 2021'
