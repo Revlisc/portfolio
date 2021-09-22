@@ -21,7 +21,7 @@ const Timeline = () => {
                         summary={[
                             "- Utilized and rapidly mastered languages and frameworks of front and backend including Javascript, CSS, HTML, React, React Native, MongoDb, NodeJS, Redux, and jQuery.", <br/>,
                             "- Completed course-long projects as well as personal side projects throughout the courses", <br/>,
-                            "- Collaborated in groups as well as individually to complete projects in multidiciplinary environments"
+                            "- Collaborated in groups as well as individually completed projects in multidisciplinary environments"
                         ]} 
                     />
                 </Row>
