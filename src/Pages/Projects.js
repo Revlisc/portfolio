@@ -3,10 +3,10 @@ import { Container, Row, Col} from 'react-bootstrap';
 import ProjectEntry from '../Components/ProjectEntry';
 import diceroll from '../image/diceRoll.PNG';
 import todolist from '../image/todolist.PNG';
-import cafe from '../image/cafe.png';
 import desktopstudy from '../image/desktopstudy.png';
 import portfolioimg from '../image/portfolioimg.png';
 import weatherApp from '../image/weatherApp.png';
+import studyAppMobile from '../image/studyAppMobile.png';
 
 
 import '../css/Projects.css';
@@ -17,6 +17,25 @@ const Projects = () => {
             <Row><h1 className='projects-header'>Projects</h1></Row>
             <Row classname='projectRow '> 
                 
+                <Col lg={3} md={6} xs={12} className='entryPic '>
+                    <ProjectEntry
+                        name='StudyApp Mobile'
+                        date='Autumn 2021'
+                        source='https://github.com/Revlisc/studyApp'
+                        imgsrc={studyAppMobile}
+                        className='mobile-img'
+                        text={["As a project to better my skills in React Native, A friend and I transitioned the StudyApp originally built for ",
+                            "web into a mobile app using React Native. This app maintains the same functionality as what was found in the web version.",
+                            " I worked on the sign in pages, review capability, navigation throughout the app, as well as the homescreen." 
+                        ]}
+                        tech={[
+                            <i className="fab fa-react"> React Native</i>, ' | ',
+                            <i className="fab fa-js"> JavaScript</i>, ' | ',
+                            <i className="fab fa-html5"> HTML</i>, ' | ',
+                            <i class="fab fa-css3-alt"> CSS</i>,
+                        ]}
+                    />
+                </Col>
                 <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
                         name='Weather App'
@@ -51,7 +70,11 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
-
+                
+                
+            </Row>
+            <Row classname='projectRowEnd'>
+                
                 <Col lg={3} md={6} xs={12}className='entryPic  '>
                     <ProjectEntry 
                         name="Portfolio"
@@ -67,11 +90,6 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
-                
-                
-            </Row>
-            <Row classname='projectRowEnd'>
-                
                 <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
                         name='Dice Roller'
@@ -103,21 +121,6 @@ const Projects = () => {
                             <i className="fab fa-html5"> HTML</i>, ' | ',
                             <i class="fab fa-css3-alt"> CSS</i>,
                         ]}
-                    />
-                </Col>
-                <Col lg={3} md={6} xs={12} className='entryPic '>
-                    <ProjectEntry
-                        name="Restaurant Mock Website"
-                        date='Summer 2021'
-                        source='https://github.com/Revlisc/bootstrapRestSite'
-                        imgsrc={cafe}
-                        text={['A project I made to gain skills in css and styling html components. Used bootstrap to assemble the parts, as well as experience with routing and making responsive websites.']}
-                        tech={[
-                            <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i className="fab fa-css3-alt"> CSS</i>, ' | ',
-                            <i className='fab fa-bootstrap'> Bootstrap</i>
-                        ]}
-                    
                     />
                 </Col>
                 
