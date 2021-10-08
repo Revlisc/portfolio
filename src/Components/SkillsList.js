@@ -26,6 +26,11 @@ const SkillsList = () => {
                 
                     <li><Skill text='React Native' /></li>
                     <li><Skill text='Redux'/></li>
+
+                    <li><Skill text='NodeJS' /></li>
+                    <li><Skill text='MongoDB'/></li>
+                    <li><Skill text='Express' /></li>
+                    <li><Skill text='Mongoose'/></li>
                 
                     <li><Skill text='Fume Hood' /></li>
                     <li><Skill text='Lab Skills' /></li>
