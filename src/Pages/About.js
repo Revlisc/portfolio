@@ -19,6 +19,7 @@ const About = () => {
                 </Row>
                 <Row>
                     <Col xs={{span: 10, offset: 1}} md={{span: 8, offset: 2}}>
+                    
                     <p className='aboutp'>
                         Hey, I'm Dale! I graduated from the University of Washington in August of 2020 with a degree 
                         in Biology. Towards the end of my degree, I started to teach myself to code with Python to supplement

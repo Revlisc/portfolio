@@ -61,16 +61,7 @@ const Timeline = () => {
                         ]} 
                     />
                 </Row>
-                <Row className='timelineRow'>
-                    <Entry 
-                        title={'Parcel Clerk - Summer Work'} 
-                        time={'Jul 2018 - Aug 2018'} 
-                        company={'Fred Meyer'} 
-                        summary={[
-                            "Performed strong verbal communication skills in fast-paced environment and showcased ability to coordinate and manage multiple tasks at once by maintaining three store entrances"
-                        ]} 
-                    />
-                </Row>
+                
                 <Row>
                     <h2 className='resumeSectionHeader'>Education</h2>
                 </Row>
