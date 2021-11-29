@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../css/SkillsList.css';
+import './SkillsList.css';
 import Skill from './Skill.js'
 
 const SkillsList = () => {

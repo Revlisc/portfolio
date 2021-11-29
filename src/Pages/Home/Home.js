@@ -1,6 +1,6 @@
 import React from 'react';
 // import Typical from 'react-typical'
-import '../css/Home.css';
+import './Home.css';
 import { Container, Row } from 'react-bootstrap';
 
 const Home = () => {

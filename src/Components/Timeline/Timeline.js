@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import Entry from './Entry.js';
+import Entry from '../Entry/Entry.js';
 
-import '../css/Timeline.css';
+import './Timeline.css';
 
 const Timeline = () => {
     

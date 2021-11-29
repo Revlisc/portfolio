@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 
-import Header from './Components/Header';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Projects from './Pages/Projects';
-import Resume from './Pages/Resume';
-import Contact from './Pages/Contact';
+import Header from './Components/Header/Header';
+import Home from './Pages/Home/Home';
+import About from './Components/AboutBar/About';
+import Projects from './Pages/Projects/Projects';
+import Resume from './Pages/Resume/Resume';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (

@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
-import ProjectEntry from '../Components/ProjectEntry';
-import diceroll from '../image/diceRoll.PNG';
-import todolist from '../image/todolist.PNG';
-import desktopstudy from '../image/desktopstudy.png';
-import portfolioimg from '../image/portfolioimg.png';
-import weatherApp from '../image/weatherApp.png';
-import studyAppMobile from '../image/studyAppMobile.png';
+import ProjectEntry from '../../Components/ProjectEntry/ProjectEntry';
+import diceroll from '../../image/diceRoll.PNG';
+import todolist from '../../image/todolist.PNG';
+import desktopstudy from '../../image/desktopstudy.png';
+import portfolioimg from '../../image/portfolioimg.png';
+import weatherApp from '../../image/weatherApp.png';
+import studyAppMobile from '../../image/studyAppMobile.png';
 
 
-import '../css/Projects.css';
+import './Projects.css';
 
 const Projects = () => {
     return(

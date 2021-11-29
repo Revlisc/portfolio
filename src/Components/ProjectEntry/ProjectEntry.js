@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Modal, Button, ModalBody, ModalTitle, ModalFooter } from 'react-bootstrap';
 
-import '../css/ProjectEntry.css';
+import './ProjectEntry.css';
 
 
 const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {

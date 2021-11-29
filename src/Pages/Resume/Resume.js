@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Container} from 'react-bootstrap';
 
-import '../css/Resume.css';
-import Timeline from '../Components/Timeline';
+import './Resume.css';
+import Timeline from '../../Components/Timeline/Timeline';
 
 const Resume = () => {
     return(

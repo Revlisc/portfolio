@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
-import '../css/Entry.css';
+import './Entry.css';
 
 const Entry = ({title, time, company, summary, education}) => {
     

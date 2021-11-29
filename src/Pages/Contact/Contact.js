@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import '../css/Contact.css';
+import './Contact.css';
 
 const Contact = () => {
     return(

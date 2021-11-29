@@ -1,11 +1,11 @@
 import React from 'react';
 
-import SkillsList from '../Components/SkillsList';
-import '../css/About.css';
+import SkillsList from '../Skill/SkillsList';
+import './About.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
-import AboutBar from '../Components/AboutBar';
-import profilePic from '../image/profilepic.jpg';
+import AboutBar from './AboutBar';
+import profilePic from '../../image/profilepic.jpg';
 
 const About = () => {
     return(
