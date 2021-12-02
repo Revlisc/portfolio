@@ -15,6 +15,18 @@ const Timeline = () => {
                 <Row className='timelineRow'>
                     
                     <Entry 
+                        title={'Specialist'} 
+                        time={'November 2021 - Present'} 
+                        company={'Apple'} 
+                        summary={[
+                            "- Furthered strong interest in technology to educate, advise, and help customers set up their devices from a range of over twenty products. ", <br/>, 
+                            "- Employed strong communicative and problem-solving abilities to rapidly assess and provide solutions for hundreds of customers totaling in over $20,000 of individual sales per day. "
+                        ]} 
+                    />
+                </Row>
+                <Row className='timelineRow'>
+                    
+                    <Entry 
                         title={'Student'} 
                         time={'April 2021 - October 2021'} 
                         company={'Nucamp'} 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import ProjectEntry from '../../Components/ProjectEntry/ProjectEntry';
 import diceroll from '../../image/diceRoll.PNG';
-import todolist from '../../image/todolist.PNG';
+import glowart from '../../image/step3tutorial.jpg'
 import desktopstudy from '../../image/desktopstudy.png';
 import portfolioimg from '../../image/portfolioimg.png';
 import weatherApp from '../../image/weatherApp.png';
@@ -17,6 +17,25 @@ const Projects = () => {
             <Row><h1 className='projects-header'>Projects</h1></Row>
             <Row classname='projectRow '> 
                 
+                <Col lg={3} md={6} xs={12} className='entryPic '>
+                    <ProjectEntry
+                        name='Glow Art Vibes'
+                        date='Autumn 2021'
+                        source='https://revlisc.github.io/glowArtLanding/'
+                        imgsrc={glowart}
+                        
+                        text={["A project I built over the course of a week for my first hackathon I participated in. ",
+                            "We were tasked with creating an art app that would allow for a user to draw, and add any creative abilities to it as we saw fit.",
+                            " We decided we wanted to make a pixel art app with the capability to upload an image to recreate and extract the colors for use.",
+                            " I worked on the grid, color extractor logic, the file upload logic, routing, some landing page styling, and color palette logic." 
+                        ]}
+                        tech={[
+                            <i className="fab fa-react"> React</i>, ' | ',
+                            <i className="fab fa-js"> JavaScript</i>, ' | ',
+                            <i className="fab fa-sass"> Sass</i>,
+                        ]}
+                    />
+                </Col>
                 <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
                         name='StudyApp Mobile'
@@ -36,7 +55,8 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
-                <Col lg={3} md={6} xs={12} className='entryPic '>
+                
+                <Col lg={3} md={{span: 6}} xs={12}className='entryPic  '>
                     <ProjectEntry
                         name='Weather App'
                         date='Autumn 2021'
@@ -55,7 +75,11 @@ const Projects = () => {
                     />
                 </Col>
                 
-                <Col lg={3} md={{span: 6}} xs={12}className='entryPic  '>
+                
+            </Row>
+            <Row classname='projectRowEnd'>
+                
+                <Col lg={3} md={6} xs={12}className='entryPic  '>
                     <ProjectEntry 
                         name="StudyApp"
                         date="Summer 2021"
@@ -70,12 +94,7 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
-                
-                
-            </Row>
-            <Row classname='projectRowEnd'>
-                
-                <Col lg={3} md={6} xs={12}className='entryPic  '>
+                <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry 
                         name="Portfolio"
                         date="Summer 2021"
@@ -90,7 +109,8 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
-                <Col lg={3} md={6} xs={12} className='entryPic '>
+
+                <Col lg={3} md={6} xs={12} className='entryPic  '>
                     <ProjectEntry
                         name='Dice Roller'
                         date='Summer 2021'
@@ -99,22 +119,6 @@ const Projects = () => {
                         text={["A game I made with React and Redux to calculate points based off of random dice rolls.", <br/>,
                             'I used redux to store user info and the scores, as well as tracking the total number of points rolled.'
                         ]}
-                        tech={[
-                            <i className="fab fa-react"> React</i>, ' | ',
-                            <i className="fab fa-js"> JavaScript</i>, ' | ',
-                            <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>,
-                        ]}
-                    />
-                </Col>
-
-                <Col lg={3} md={6} xs={12} className='entryPic  '>
-                    <ProjectEntry 
-                        name="Todo List"
-                        date="Summer 2021"
-                        source='https://github.com/Revlisc/todoList'
-                        imgsrc={todolist}
-                        text={['A basic todolist made with react that allows the user to create, edit, delete, and check off items by clicking.']}
                         tech={[
                             <i className="fab fa-react"> React</i>, ' | ',
                             <i className="fab fa-js"> JavaScript</i>, ' | ',

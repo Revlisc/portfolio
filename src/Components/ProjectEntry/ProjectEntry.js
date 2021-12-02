@@ -26,7 +26,7 @@ const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {
                 <p className='modalHover'>
                     <h3>{name}</h3>
                     <Button  className='projectModalBtn mx-auto btn' onClick={showModal}>
-                        +
+                        <h4>Details</h4>
                     </Button>
                 </p>
             </div>

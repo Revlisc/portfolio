@@ -25,8 +25,8 @@ const About = () => {
                         in Biology. Towards the end of my degree, I started to teach myself to code with Python to supplement
                         my education. As I built upon my skills, I found a passion for programming. Since I graduated, I've 
                         continued learning computer science; whether it be through coursework, a bootcamp, or self-lead
-                        teaching and projects. Since then, I've now learned skills in Java, Python, R, and Javascript, MongoDb, Node.js,
-                        Express, React, and React Native. I'm currently looking to get involved in tech as a programmer, especially 
+                        teaching and projects. Since then, I've now learned skills in Java, Python, R, Javascript, MongoDb, Node.js,
+                        Express, React, and React Native. I'm currently looking to get involved in tech as a software engineer or developer, especially 
                         somewhere related to biotech or the sciences. I'm always looking to expand my skills and learn new things,
                         and I look forward to connecting soon.
 
