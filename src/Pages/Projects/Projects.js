@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import ProjectEntry from '../../Components/ProjectEntry/ProjectEntry';
-import diceroll from '../../image/diceRoll.PNG';
+import social from '../../image/social.png'
 import glowart from '../../image/step3tutorial.jpg'
 import desktopstudy from '../../image/desktopstudy.png';
 import portfolioimg from '../../image/portfolioimg.png';
@@ -17,6 +17,28 @@ const Projects = () => {
             <Row><h1 className='projects-header'>Projects</h1></Row>
             <Row classname='projectRow '> 
                 
+                <Col lg={3} md={6} xs={12} className='entryPic '>
+                    <ProjectEntry
+                        name='Social'
+                        date='Autumn 2021'
+                        source='https://github.com/Revlisc/socialApp'
+                        imgsrc={social}
+                        
+                        text={["In an exercise to hone my knowledge of the MERN stack, I am in the process of developing a full-stack social media app.",
+                            " Since I began learning JavaScript, making a social media app has always been in the back of my mind, and now its a reality!",
+                            " So far, you can either make an account or login with your google account or email with JWT, create, like, comment on, or delete posts if you made them.",
+                            " Future features will include a profile page, friends, a chat portion, and a search by hashtags feature. Stay tuned for updates!" 
+                        ]}
+                        tech={[
+                            <i className="fab fa-react"> React</i>, ' | ',
+                            <i className="fab fa-node"> NodeJS</i>, ' | ',
+                            <i className="fab fa-mdb"> MongoDB</i>, ' | ',
+                            <i> Express </i>, ' | ',
+                            <i> mongoose </i>, ' | ',
+
+                        ]}
+                    />
+                </Col>
                 <Col lg={3} md={6} xs={12} className='entryPic '>
                     <ProjectEntry
                         name='Glow Art Vibes'
@@ -56,6 +78,11 @@ const Projects = () => {
                     />
                 </Col>
                 
+                
+                
+                
+            </Row>
+            <Row classname='projectRowEnd'>
                 <Col lg={3} md={{span: 6}} xs={12}className='entryPic  '>
                     <ProjectEntry
                         name='Weather App'
@@ -74,11 +101,7 @@ const Projects = () => {
                         ]}
                     />
                 </Col>
-                
-                
-            </Row>
-            <Row classname='projectRowEnd'>
-                
+
                 <Col lg={3} md={6} xs={12}className='entryPic  '>
                     <ProjectEntry 
                         name="StudyApp"
@@ -110,23 +133,6 @@ const Projects = () => {
                     />
                 </Col>
 
-                <Col lg={3} md={6} xs={12} className='entryPic  '>
-                    <ProjectEntry
-                        name='Dice Roller'
-                        date='Summer 2021'
-                        source='https://github.com/Revlisc/diceRoll'
-                        imgsrc={diceroll}
-                        text={["A game I made with React and Redux to calculate points based off of random dice rolls.", <br/>,
-                            'I used redux to store user info and the scores, as well as tracking the total number of points rolled.'
-                        ]}
-                        tech={[
-                            <i className="fab fa-react"> React</i>, ' | ',
-                            <i className="fab fa-js"> JavaScript</i>, ' | ',
-                            <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>,
-                        ]}
-                    />
-                </Col>
                 
             </Row>
         </Container>
