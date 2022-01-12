@@ -20,7 +20,7 @@ const Timeline = () => {
                         company={'Rev Tech'} 
                         summary={[
                             "At REV Tech, I began my career in tech serving as a software development engineer on the applications development team. ", <br/>, 
-                            "As an engineer, I was able to partake in the design, development, and production of various apps both for interal and clients use. ", <br/>,
+                            "As an engineer, I was able to partake in the design, development, and production of various apps both for internal and clients use. ", <br/>,
                             "I participated and led meetings dicussing goals, timelines, and features of products to exceed client expectations. I developed using an agile workflow, tracking tasks with my team on Jira in sprints. "
                         ]} 
                     />
