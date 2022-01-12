@@ -19,8 +19,9 @@ const Timeline = () => {
                         time={'January 2022 - Present'} 
                         company={'Rev Tech'} 
                         summary={[
-                            "- ", <br/>, 
-                            "-  "
+                            "At REV Tech, I began my career in tech serving as a software development engineer on the applications development team. ", <br/>, 
+                            "As an engineer, I was able to partake in the design, development, and production of various apps both for interal company use and clients. ", <br/>,
+                            "I participated and led meetings dicussing goals, timelines, and features of products to exceed client expectations. I developed using an agile workflow, tracking tasks with my team on Jira in sprints. "
                         ]} 
                     />
                 </Row>
@@ -28,7 +29,7 @@ const Timeline = () => {
                     
                     <Entry 
                         title={'Specialist'} 
-                        time={'November 2021 - December 2021'} 
+                        time={'October 2021 - December 2021'} 
                         company={'Apple'} 
                         summary={[
                             "- Furthered strong interest in technology to educate, advise, and help customers set up their devices from a range of over twenty products. ", <br/>, 
