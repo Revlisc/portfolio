@@ -17,7 +17,6 @@ const Contact = () => {
                     <i className='fa fa-location-arrow fa-2x' />
                     <h3>Where I am</h3>
                     <h5>Seattle, Wa</h5>
-                    <p>*I'm open to relocate!</p>
                 </Col>
                 <Col md={3} className='contacti'>
                     <i className='fas fa-envelope contacti fa-2x' />

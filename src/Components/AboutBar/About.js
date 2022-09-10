@@ -24,12 +24,9 @@ const About = () => {
                         Hey, I'm Dale! I graduated from the University of Washington in August of 2020 with a degree 
                         in Biology. Towards the end of my degree, I started to teach myself to code with Python to supplement
                         my education. As I built upon my skills, I found a passion for programming. Since I graduated, I've 
-                        continued learning computer science; whether it be through coursework, a bootcamp, or self-lead
-                        teaching and projects. Since then, I've now learned skills in Java, Python, R, Javascript, C#, MongoDb, Node.js,
-                        Express, React, and React Native. I'm currently employed as a Software Development Engineer in Seattle on an applications development team
-                        learning and building all that I can. I'm always looking to expand my skills, meet new people and learn new things,
-                        and I look forward to connecting soon.
-
+                        continued learning computer science, both through academia and industry. I began my professional career in tech in 2022 as a Software
+                        Engineer with a tech consulting company in Seattle and am now looking for my next opportunity. I seek to be challenged and be surrounded by a passionate team
+                        to build great things. Thanks for stopping by, and I look forward to connecting soon.
                     </p>
                     </Col>
                 </Row>
@@ -52,7 +49,7 @@ const About = () => {
                         <AboutBar 
                             icon={<i className="fas fa-flask fa-3x"></i>} 
                             title='Data'
-                            text='With a background in research, I know the importance of understanding data'
+                            text="I'm experienced and love working with data of all kinds "
                         />
                     </Col>
                     <Col xs={6} md={3} className='mx-auto'>
@@ -70,8 +67,7 @@ const About = () => {
                 <Row>
                     <Col xs={12} sm={8} className='mx-auto' style={{textAlign: 'center'}}>
                         <p>
-                            I'm currently seeking full-time positions in software engineering, bioinformatics, 
-                            or developer roles. If you think I would make a good fit to your organization or team,
+                            I'm currently seeking full-time positions in software engineering. If you think I would make a good fit to your organization or team,
                             please reach out to me at <a href='mailto:dalesimmons0210@gmail.com' alt='email'>dalesimmons0210@gmail.com</a>.
                         </p>
                     </Col>

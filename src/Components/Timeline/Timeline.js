@@ -15,13 +15,13 @@ const Timeline = () => {
                 <Row className='timelineRow'>
                     
                     <Entry 
-                        title={'Software Development Engineer'} 
-                        time={'January 2022 - Present'} 
+                        title={'Software Engineer'} 
+                        time={'January 2022 - September 2022'} 
                         company={'Rev Tech'} 
                         summary={[
                             "At REV Tech, I began my career in tech serving as a software development engineer on the applications development team. ", <br/>, 
-                            "As an engineer, I was able to partake in the design, development, and production of various apps both for internal and clients use. ", <br/>,
-                            "I participated and led meetings dicussing goals, timelines, and features of products to exceed client expectations. I developed using an agile workflow, tracking tasks with my team on Jira in sprints. "
+                            "As an engineer, I was able to partake in the design, development, and production of various apps both for internal and clients use. I greatly expanded upon my knowledge of the development cycle, programming, and software design", <br/>,
+                            "Notable clients include the European Commission, Providence Health & Services, Warrior Games, and the Cities of Seattle, Denver, New York, and San Diego. "
                         ]} 
                     />
                 </Row>
@@ -92,11 +92,22 @@ const Timeline = () => {
                 </Row>
                 <Row className='timelineRow'>
                     <Entry 
+                        title={'Master of Computer Science'} 
+                        time={'Expected Autumn 2022 - Autumn 2024'} 
+                        company={'Arizona State University'} 
+                        summary={[
+                            "Concentration on Big Data Systems."
+                        ]} 
+                        education
+                    />
+                </Row>
+                <Row className='timelineRow'>
+                    <Entry 
                         title={'Bachelor of Science'} 
                         time={'Sept 2017 - Aug 2020'} 
                         company={'University of Washington'} 
                         summary={[
-                            "Completed research in the Department of Biology, collaborated on multiple projects, member of Beta Beta Beta Honor Society"
+                            "Completed research in the Department of Biology, collaborated on multiple projects, member of Beta Beta Beta Honor Society."
                         ]} 
                         education
                     />
