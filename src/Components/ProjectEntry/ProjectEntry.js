@@ -1,9 +1,4 @@
-
 import React, { useState } from 'react';
-import { Modal, Button, ModalBody, ModalTitle, ModalFooter } from 'react-bootstrap';
-
-import './ProjectEntry.css';
-
 
 const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,12 +20,12 @@ const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {
                 
                 <p className='modalHover'>
                     <h3>{name}</h3>
-                    <Button  className='projectModalBtn mx-auto btn' onClick={showModal}>
+                    {/*<Button  className='projectModalBtn mx-auto btn' onClick={showModal}>
                         <h4>Details</h4>
-                    </Button>
+                    </Button>*/}
                 </p>
             </div>
-            <Modal
+            {/* <Modal
                 size="lg"
                 show={isOpen}
                 onHide={hideModal}
@@ -55,7 +50,7 @@ const ProjectEntry = ({name, date, source, imgsrc, text, tech}) => {
                 <Button className='modalCodeBtn'><a href={source} >View code</a></Button>
                 <Button onClick={hideModal} className='modalCloseBtn'>X</Button>
                 </ModalFooter>
-            </Modal>
+            </Modal> */}
         </div>
 
     )

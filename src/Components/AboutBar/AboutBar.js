@@ -1,5 +1,4 @@
 import React from 'react';
-import './About.css'
 
 const AboutBar = ({icon, title, text}) => {
     return (

@@ -13,11 +13,11 @@ function App() {
       <Fragment>
         <Header />
         
-        <Home />
+        {/* <Home />
         <About />
         <Projects />
         <Resume />
-        <Contact />
+        <Contact /> */}
         
       </Fragment>
     
@@ -25,14 +25,3 @@ function App() {
 }
 
 export default App;
-
-/* <Fragment>
-<Header />
-<Switch>
-  <Route exact path='/' render={() => <Home/>} />
-  <Route exact path='/about' render={() => <About/>} />
-  <Route exact path='/projects' render={() => <Projects/>} />
-  <Route exact path='/resume' render={() => <Resume/>} />
-  <Route exact path='/contact' render={() => <Contact/>} />
-</Switch>
-</Fragment> */

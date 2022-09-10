@@ -1,7 +1,4 @@
-
 import React from 'react';
-import './SkillsList.css';
-
 
 const Skill = ({text}) => {
     return (
