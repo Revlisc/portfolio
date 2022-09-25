@@ -75,7 +75,7 @@ const About = () => {
                 </Row>
                 <Row className='aboutbtns' xs={12}>
                     <Col xs={{span: 12}} sm={{span: 3}}  className='justify-content-end'><a href="mailto:dalesimmons0210@gmail.com" className={'btn btn-block btn-lg abtbtn'} role='button'>Hire Me</a></Col>
-                    <Col xs={{span: 12}} sm={{span: 3}} className='justify-content-start'><a href={'https://docs.google.com/document/d/1Lhe-v6w-rY-eB7edlK1ZVL9SELkeDS9HnlJ_zuvidkc/edit?usp=sharing'} className={'btn btn-lg abtbtn'}>Download Resume</a></Col>
+                    <Col xs={{span: 12}} sm={{span: 3}} className='justify-content-start'><a href={'https://docs.google.com/document/d/12E_qw47InujI5Ok3ipZsGUgV1Mn22eCba83HGp_5s1M/view?usp=sharing'} className={'btn btn-lg abtbtn'}>Download Resume</a></Col>
                 </Row>
                
             </div>
