@@ -21,7 +21,7 @@ const Contact = () => {
                 <Col md={3} className='contacti'>
                     <i className='fas fa-envelope contacti fa-2x' />
                     <h3>Email me at</h3>
-                    <h5><a href='mailto:dalesimmons0210@gmail.com'>dalesimmons0210 <br/>@gmail.com</a></h5>
+                    <h5><a href='mailto:dalesimmons0210@gmail.com'>dalesimmons0210@gmail.com</a></h5>
                 </Col>
                 <Col md={3} className='contacti'>
                     <i className='fab fa-linkedin-in contacti fa-2x' />

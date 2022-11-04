@@ -1,36 +1,70 @@
 .hometext {
     font-size: 36px;
     text-align: center;
-    background-image: url('../../image/background_pic.jpg');
+    /*background-image: url('../../image/background_pic.jpg');
     background-size: cover;
-    background-position: 50% 12%;
-    height: 94.5vh;
+    background-position: 50% 12%;*/
+    height: 100vh;
     max-width: 100%;
     position: relative;
     color: rgb(33,36,27);
-    
+    background: linear-gradient(-45deg, #185a9d, #43cea2, #2193b0, #6dd5ed);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    padding-bottom: 5rem;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 
-
-
 .openingline {
-    padding-top: 4rem;
-    margin-bottom: 3rem;
+    padding-top: 12rem;
+    margin-bottom: 1rem;
     position: relative;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 5rem;
-    font-family: 'Open Sans', 'Oswald', "sans-serif"
+    font-family: 'Open Sans', 'Oswald', "sans-serif";
     
+}
+
+.motto {
+    padding-top: rem;
+    position: relative;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Oswald', "sans-serif";
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.subline {
+    padding-top: 0.5rem;
+    position: relative;
+    font-weight: 500;
+    font-family: 'Open Sans', 'Oswald', "sans-serif";
+    font-size: 1.25rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .iconslinks {
     margin-top: 3.75rem;
     font-size: 3rem;
     display: inline;
-    
+    padding-bottom: 5rem;
     
 }
+
 
 h3 {
     font-size: 48px;
@@ -38,9 +72,10 @@ h3 {
 
 .hicon {
     padding: 0;
+    padding-bottom: 5rem;
     margin: 0;
     align-items: center;
-    color: #05C2C9;
+    color: #FFFFFF;
 }
 
 h1 {
@@ -55,7 +90,30 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
-    .hicon {
-        color: white;
+    
+    .body {
+        overflow: hidden;
+    }
+
+    .openingline {
+        padding-top: 5rem;
+        font-size: 3rem;
+    }
+
+    .hometext {
+        padding-bottom: 5rem;
+    }
+
+    .iconslinks {
+        padding-bottom: 3rem;
+    }
+
+    .motto {
+        font-size: 1.75rem;
+    }
+
+    .subline {
+        padding-top: 4rem;
+        animation: fadeIn 3s;
     }
 }

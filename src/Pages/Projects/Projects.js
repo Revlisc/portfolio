@@ -82,59 +82,7 @@ const Projects = () => {
                 
                 
             </Row>
-            <Row classname='projectRowEnd'>
-                <Col lg={3} md={{span: 6}} xs={12}className='entryPic  '>
-                    <ProjectEntry
-                        name='Weather App'
-                        date='Autumn 2021'
-                        source='https://github.com/Revlisc/weatherApp'
-                        imgsrc={weatherApp}
-                        text={["I developed this app to gain practice in communicating with third-party API's.",
-                            "I used the Open Weather Map API to display both the current and upcoming weather, then React to display the chosen data.",
-                            "The User types in their chosen city, and the api will fetch the weather icon, temperature, humidity, a written description of their weather conidtions, and what the temperature feels like." 
-                        ]}
-                        tech={[
-                            <i className="fab fa-react"> React</i>, ' | ',
-                            <i className="fab fa-js"> JavaScript</i>, ' | ',
-                            <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>,
-                        ]}
-                    />
-                </Col>
-
-                <Col lg={3} md={6} xs={12}className='entryPic  '>
-                    <ProjectEntry 
-                        name="StudyApp"
-                        date="Summer 2021"
-                        source='https://github.com/Revlisc/desktopStudy'
-                        imgsrc={desktopstudy}
-                        text={['A project I made in collaboration that allows a user to login/sign up to an account, create study sets, edit existing sets, review their flashcards, and measure accuracy.']}
-                        tech={[
-                            <i className="fab fa-react"> React</i>, ' | ',
-                            <i className="fab fa-js"> JavaScript</i>, ' | ',
-                            <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>, 
-                        ]}
-                    />
-                </Col>
-                <Col lg={3} md={6} xs={12} className='entryPic '>
-                    <ProjectEntry 
-                        name="Portfolio"
-                        date="Summer 2021"
-                        source='https://github.com/Revlisc/portfolio'
-                        imgsrc={portfolioimg}
-                        text={['A personal site to host a resume, my projects, demonstrate fluency in React, and allow people to get to know me better. ']}
-                        tech={[
-                            <i className="fab fa-react"> React</i>, ' | ',
-                            <i className="fab fa-js"> JavaScript</i>, ' | ',
-                            <i className="fab fa-html5"> HTML</i>, ' | ',
-                            <i class="fab fa-css3-alt"> CSS</i>, 
-                        ]}
-                    />
-                </Col>
-
-                
-            </Row>
+            
         </Container>
     )
 }

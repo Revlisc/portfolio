@@ -15,8 +15,8 @@ function App() {
         
         <Home />
         <About />
-        <Projects />
         <Resume />
+        <Projects />
         <Contact />
         
       </Fragment>

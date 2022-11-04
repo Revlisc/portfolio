@@ -16,17 +16,25 @@ h3 {
     text-align:center;
 }
 
+.skillList {
+    padding-bottom: 2rem;
+}
+
 .skill {
     
-    color: white;
-    font-weight: 600;
-    background-color: #05C2C9;
-    padding-left: 1rem;
-    height: 3rem;
     
-    margin: 2rem 1rem;
+    font-weight: 600;
+    padding-left: 0;
+    padding-left: 1rem;
+    
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
     border-radius: 1rem;
     
+}
+
+.listItem {
+    display: block;
 }
 
 .skillText {
@@ -47,4 +55,10 @@ li {
 
 .list {
     padding-left: 0;
+}
+
+.years {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: underline;
 }

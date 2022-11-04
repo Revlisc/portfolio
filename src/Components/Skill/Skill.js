@@ -1,13 +1,29 @@
 
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import './SkillsList.css';
 
 
-const Skill = ({text}) => {
+const Skill = ({years, text}) => {
     return (
-        <div className='skill '>
-            <p className='skillText'>{text}</p> 
-        </div>
+        <Container className='skill' >
+            <Row>
+                <Col className='years' >
+                    <h4 >{years}</h4>
+                </Col>
+                
+            </Row>
+            <Row>
+                <Col >
+                
+                    {
+                        text.map(x => <li className='listItem'>{x}</li>)
+                    }
+                
+                </Col>
+                
+            </Row>
+        </Container>
     )
 }
 
